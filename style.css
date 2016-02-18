@@ -1,0 +1,54 @@
+.comments p:nth-child(even) {
+background: lavender;
+}
+.comments p:nth-child(odd) {
+background: gainsboro;
+}
+header, main, footer {
+	width: 855px;
+	margin: auto;
+	border-bottom: 1px solid black;
+	overflow: auto;
+}
+header h1 {
+	width: 255px;
+	float: left;
+	margin: 0px;
+	font-family: sans-serif;
+}
+header p {
+	width: 570px;
+	float: right;
+	margin: 0px;
+	margin-top: 10px;
+	font-style: italic;
+}
+p {
+	font-family: sans-serif;
+}
+.comment-input {
+	width: 255px;
+	float: left;
+}
+.comment-input input {
+	width: 200px;
+	margin-right: 5px;
+}
+button {
+	font-weight: bold;
+}
+.comments {
+	width: 570px;
+	float: right;
+}
+.comments p {
+	border-radius: 5px;
+	padding: 3px;
+}
+main {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+footer {
+	font-size: 10px;
+}
